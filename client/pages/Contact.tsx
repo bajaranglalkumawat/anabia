@@ -14,7 +14,7 @@ export default function Contact() {
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   const handleFormChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -59,7 +59,9 @@ export default function Contact() {
                   <MapPin className="w-8 h-8 text-primary" />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">Address</h3>
+              <h3 className="text-xl font-bold text-foreground mb-3">
+                Address
+              </h3>
               <p className="text-muted-foreground text-sm">
                 123 Main Street
                 <br />
@@ -267,8 +269,8 @@ export default function Contact() {
 
             {formSubmitted && (
               <div className="p-4 bg-green-50 border-2 border-green-200 rounded-lg text-green-800 text-center animate-fade-in">
-                ✓ Thank you! We've received your message and will get back to you
-                soon.
+                ✓ Thank you! We've received your message and will get back to
+                you soon.
               </div>
             )}
           </form>
@@ -295,12 +297,18 @@ export default function Contact() {
                   </a>
                 </li>
                 <li>
-                  <a href="/menu" className="hover:text-white transition-colors">
+                  <a
+                    href="/menu"
+                    className="hover:text-white transition-colors"
+                  >
                     Menu
                   </a>
                 </li>
                 <li>
-                  <a href="/contact" className="hover:text-white transition-colors">
+                  <a
+                    href="/contact"
+                    className="hover:text-white transition-colors"
+                  >
                     Contact
                   </a>
                 </li>

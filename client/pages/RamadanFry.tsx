@@ -9,140 +9,160 @@ export default function RamadanFry() {
       name: "Spring Roll",
       price: "Rs. 400",
       priceNum: 400,
-      image: "https://images.unsplash.com/photo-1609501676725-7186f017a4b0?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1609501676725-7186f017a4b0?w=400&h=400&fit=crop",
     },
     {
       id: 2,
       name: "Chicken Roll",
       price: "Rs. 500",
       priceNum: 500,
-      image: "https://images.unsplash.com/photo-1585238341710-4b4e6db51910?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1585238341710-4b4e6db51910?w=400&h=400&fit=crop",
     },
     {
       id: 3,
       name: "Chicken Wonton",
       price: "Rs. 450",
       priceNum: 450,
-      image: "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
     },
     {
       id: 4,
       name: "Chicken Samosa",
       price: "Rs. 600",
       priceNum: 600,
-      image: "https://images.unsplash.com/photo-1585238341710-4b4e6db51910?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1585238341710-4b4e6db51910?w=400&h=400&fit=crop",
     },
     {
       id: 5,
       name: "Chicken Samosa (Mini)",
       price: "Rs. 500",
       priceNum: 500,
-      image: "https://images.unsplash.com/photo-1585238341710-4b4e6db51910?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1585238341710-4b4e6db51910?w=400&h=400&fit=crop",
     },
     {
       id: 6,
       name: "Chicken BBQ Samosa",
       price: "Rs. 650",
       priceNum: 650,
-      image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
     },
     {
       id: 7,
       name: "Chicken BBQ Samosa (Mini)",
       price: "Rs. 600",
       priceNum: 600,
-      image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
     },
     {
       id: 8,
       name: "Beef Samosa",
       price: "Rs. 650",
       priceNum: 650,
-      image: "https://images.unsplash.com/photo-1635087233829-3a52b5d64ab8?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1635087233829-3a52b5d64ab8?w=400&h=400&fit=crop",
     },
     {
       id: 9,
       name: "Malai Boti Samosa",
       price: "Rs. 700",
       priceNum: 700,
-      image: "https://images.unsplash.com/photo-1625866274917-3e4f0dd4d8f6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1625866274917-3e4f0dd4d8f6?w=400&h=400&fit=crop",
     },
     {
       id: 10,
       name: "Malai Boti Samosa (Mini)",
       price: "Rs. 600",
       priceNum: 600,
-      image: "https://images.unsplash.com/photo-1625866274917-3e4f0dd4d8f6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1625866274917-3e4f0dd4d8f6?w=400&h=400&fit=crop",
     },
     {
       id: 11,
       name: "Malai Boti Box Patties",
       price: "Rs. 800",
       priceNum: 800,
-      image: "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
     },
     {
       id: 12,
       name: "Cheese One-Bite Samosa",
       price: "Rs. 700",
       priceNum: 700,
-      image: "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
     },
     {
       id: 13,
       name: "Cheese Balls",
       price: "Rs. 600",
       priceNum: 600,
-      image: "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
     },
     {
       id: 14,
       name: "Chicken Thread Strips",
       price: "Rs. 900",
       priceNum: 900,
-      image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
     },
     {
       id: 15,
       name: "Chicken Tandoori Thread Strips",
       price: "Rs. 1000",
       priceNum: 1000,
-      image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
     },
     {
       id: 16,
       name: "Pizza Box Patties",
       price: "Rs. 1000",
       priceNum: 1000,
-      image: "https://images.unsplash.com/photo-1625866274917-3e4f0dd4d8f6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1625866274917-3e4f0dd4d8f6?w=400&h=400&fit=crop",
     },
     {
       id: 17,
       name: "Aloo Spaghetti Cutlets",
       price: "Rs. 700",
       priceNum: 700,
-      image: "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
     },
     {
       id: 18,
       name: "Chicken Tandoori Box Patties",
       price: "Rs. 900",
       priceNum: 900,
-      image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
     },
     {
       id: 19,
       name: "Chicken Kofta",
       price: "Rs. 1200",
       priceNum: 1200,
-      image: "https://images.unsplash.com/photo-1625866274917-3e4f0dd4d8f6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1625866274917-3e4f0dd4d8f6?w=400&h=400&fit=crop",
     },
     {
       id: 20,
       name: "Beef Kofta",
       price: "Rs. 1500",
       priceNum: 1500,
-      image: "https://images.unsplash.com/photo-1635087233829-3a52b5d64ab8?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1635087233829-3a52b5d64ab8?w=400&h=400&fit=crop",
     },
   ];
 
@@ -309,12 +329,18 @@ export default function RamadanFry() {
                   </a>
                 </li>
                 <li>
-                  <a href="/menu" className="hover:text-white transition-colors">
+                  <a
+                    href="/menu"
+                    className="hover:text-white transition-colors"
+                  >
                     Menu
                   </a>
                 </li>
                 <li>
-                  <a href="/contact" className="hover:text-white transition-colors">
+                  <a
+                    href="/contact"
+                    className="hover:text-white transition-colors"
+                  >
                     Contact
                   </a>
                 </li>

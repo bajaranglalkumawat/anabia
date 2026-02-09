@@ -8,7 +8,7 @@ const NotFound = () => {
   useEffect(() => {
     console.error(
       "404 Error: User attempted to access non-existent route:",
-      location.pathname
+      location.pathname,
     );
   }, [location.pathname]);
 
@@ -47,12 +47,8 @@ const NotFound = () => {
           </div>
 
           <div className="mt-16 p-8 bg-white rounded-2xl shadow-lg inline-block">
-            <p className="text-muted-foreground mb-4">
-              Need help? Contact us:
-            </p>
-            <p className="text-primary font-bold text-lg">
-              +1 (234) 567-8900
-            </p>
+            <p className="text-muted-foreground mb-4">Need help? Contact us:</p>
+            <p className="text-primary font-bold text-lg">+1 (234) 567-8900</p>
           </div>
         </div>
       </div>

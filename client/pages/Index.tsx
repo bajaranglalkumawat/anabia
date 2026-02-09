@@ -18,33 +18,37 @@ export default function Home() {
       name: "Butter Chicken Biryani",
       price: "$14.99",
       description: "Fragrant basmati rice with tender butter chicken",
-      image: "https://images.unsplash.com/photo-1596040450208-54c5ea06f4a1?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1596040450208-54c5ea06f4a1?w=400&h=400&fit=crop",
     },
     {
       id: 2,
       name: "Paneer Tikka Masala",
       price: "$12.99",
       description: "Creamy tomato-based curry with cottage cheese",
-      image: "https://images.unsplash.com/photo-1565557623814-ddf189ba38e3?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1565557623814-ddf189ba38e3?w=400&h=400&fit=crop",
     },
     {
       id: 3,
       name: "Tandoori Chicken",
       price: "$13.99",
       description: "Spiced chicken cooked in traditional tandoor",
-      image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
     },
     {
       id: 4,
       name: "Dal Makhani",
       price: "$10.99",
       description: "Creamy lentil curry infused with butter and spices",
-      image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop",
     },
   ];
 
   const handleFormChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -111,15 +115,21 @@ export default function Home() {
               <div className="flex gap-8 mt-12">
                 <div>
                   <p className="text-3xl font-bold text-primary">500+</p>
-                  <p className="text-sm text-muted-foreground">Happy Customers</p>
+                  <p className="text-sm text-muted-foreground">
+                    Happy Customers
+                  </p>
                 </div>
                 <div>
                   <p className="text-3xl font-bold text-primary">20+</p>
-                  <p className="text-sm text-muted-foreground">Signature Dishes</p>
+                  <p className="text-sm text-muted-foreground">
+                    Signature Dishes
+                  </p>
                 </div>
                 <div>
                   <p className="text-3xl font-bold text-primary">15+</p>
-                  <p className="text-sm text-muted-foreground">Years of Excellence</p>
+                  <p className="text-sm text-muted-foreground">
+                    Years of Excellence
+                  </p>
                 </div>
               </div>
             </div>
@@ -142,7 +152,11 @@ export default function Home() {
       {/* Ramadan Special Section */}
       <section className="py-20 bg-gradient-to-r from-secondary/20 via-purple-100 to-primary/10 relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
-          <div className={"absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><g fill=\"%23333333\" fill-opacity=\"0.1\"><path d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/></g></g></svg>')]"} />
+          <div
+            className={
+              'absolute inset-0 bg-[url(\'data:image/svg+xml;utf8,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23333333" fill-opacity="0.1"><path d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/></g></g></svg>\')]'
+            }
+          />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -294,7 +308,11 @@ export default function Home() {
         className="py-16 bg-gradient-to-r from-primary via-accent to-secondary text-white relative overflow-hidden"
       >
         <div className="absolute inset-0 opacity-10">
-          <div className={"absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><g fill=\"%23ffffff\" fill-opacity=\"0.1\"><path d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/></g></g></svg>')]"} />
+          <div
+            className={
+              'absolute inset-0 bg-[url(\'data:image/svg+xml;utf8,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23ffffff" fill-opacity="0.1"><path d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/></g></g></svg>\')]'
+            }
+          />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -303,7 +321,8 @@ export default function Home() {
               Order Your Favorite Dishes
             </h2>
             <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
-              Fast delivery • Fresh ingredients • Authentic recipes • Satisfaction guaranteed
+              Fast delivery • Fresh ingredients • Authentic recipes •
+              Satisfaction guaranteed
             </p>
             <a
               href="tel:+1234567890"
@@ -393,7 +412,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground mb-1">Email</h3>
+                    <h3 className="font-semibold text-foreground mb-1">
+                      Email
+                    </h3>
                     <p className="text-muted-foreground">
                       <a
                         href="mailto:hello@anabia.com"
@@ -432,7 +453,9 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-secondary/5 to-primary/5">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-4xl font-bold text-foreground mb-4">Get In Touch</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-4">
+              Get In Touch
+            </h2>
             <p className="text-lg text-muted-foreground">
               Have questions? We'd love to hear from you. Send us a message and
               we'll respond as soon as possible.
@@ -556,12 +579,18 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="/menu" className="hover:text-white transition-colors">
+                  <a
+                    href="/menu"
+                    className="hover:text-white transition-colors"
+                  >
                     Menu
                   </a>
                 </li>
                 <li>
-                  <a href="/contact" className="hover:text-white transition-colors">
+                  <a
+                    href="/contact"
+                    className="hover:text-white transition-colors"
+                  >
                     Contact
                   </a>
                 </li>

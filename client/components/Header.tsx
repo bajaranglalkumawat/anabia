@@ -23,7 +23,9 @@ export default function Header() {
               <span className="text-white font-bold text-lg">A</span>
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-primary">Anabia Ki Rasoi</h1>
+              <h1 className="text-xl font-bold text-primary">
+                Anabia Ki Rasoi
+              </h1>
               <p className="text-xs text-muted-foreground">Authentic Flavors</p>
             </div>
           </Link>

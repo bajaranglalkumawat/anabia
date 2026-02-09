@@ -11,7 +11,8 @@ export default function RamadanParatha() {
         { desc: "Cooked (One)", price: "Rs. 40" },
         { desc: "6 pieces", price: "Rs. 200" },
       ],
-      image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=400&fit=crop",
     },
     {
       id: 2,
@@ -21,7 +22,8 @@ export default function RamadanParatha() {
         { desc: "Cooked (One)", price: "Rs. 40" },
         { desc: "6 pieces", price: "Rs. 230" },
       ],
-      image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd64b11?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1599599810694-b5ac4dd64b11?w=400&h=400&fit=crop",
     },
     {
       id: 3,
@@ -31,7 +33,8 @@ export default function RamadanParatha() {
         { desc: "Cooked (One)", price: "Rs. 45" },
         { desc: "8 pieces", price: "Rs. 250" },
       ],
-      image: "https://images.unsplash.com/photo-1631452614221-cb9b66bb8151?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1631452614221-cb9b66bb8151?w=400&h=400&fit=crop",
     },
   ];
 
@@ -80,7 +83,8 @@ export default function RamadanParatha() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-center text-center">
             <p className="text-sm text-muted-foreground font-medium">
-              📋 Pre-Orders Only | 📍 Only Karachi | 🚚 Delivery charges depend on area
+              📋 Pre-Orders Only | 📍 Only Karachi | 🚚 Delivery charges depend
+              on area
             </p>
           </div>
         </div>
@@ -141,7 +145,8 @@ export default function RamadanParatha() {
 
                     <div className="p-4 bg-accent/10 rounded-lg border-l-4 border-accent">
                       <p className="text-sm text-muted-foreground">
-                        💡 <span className="font-semibold">Tip:</span> Pre-order now for fresh delivery
+                        💡 <span className="font-semibold">Tip:</span> Pre-order
+                        now for fresh delivery
                       </p>
                     </div>
                   </div>
@@ -200,7 +205,8 @@ export default function RamadanParatha() {
             Place Your Pre-Order Today!
           </h2>
           <p className="text-lg mb-8 opacity-90">
-            Get fresh, home-made parathas delivered to your door for Iftar and Suhoor
+            Get fresh, home-made parathas delivered to your door for Iftar and
+            Suhoor
           </p>
           <a
             href="tel:+923347367919"
@@ -231,12 +237,18 @@ export default function RamadanParatha() {
                   </a>
                 </li>
                 <li>
-                  <a href="/menu" className="hover:text-white transition-colors">
+                  <a
+                    href="/menu"
+                    className="hover:text-white transition-colors"
+                  >
                     Menu
                   </a>
                 </li>
                 <li>
-                  <a href="/contact" className="hover:text-white transition-colors">
+                  <a
+                    href="/contact"
+                    className="hover:text-white transition-colors"
+                  >
                     Contact
                   </a>
                 </li>
