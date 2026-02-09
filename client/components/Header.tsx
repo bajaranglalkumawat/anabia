@@ -8,6 +8,8 @@ export default function Header() {
   const navLinks = [
     { label: "Home", href: "/" },
     { label: "Menu", href: "/menu" },
+    { label: "Ramadan Fry", href: "/ramadan-fry" },
+    { label: "Ramadan Paratha", href: "/ramadan-paratha" },
     { label: "Contact", href: "/contact" },
   ];
 
