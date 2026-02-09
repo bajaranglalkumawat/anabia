@@ -139,6 +139,98 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Ramadan Special Section */}
+      <section className="py-20 bg-gradient-to-r from-secondary/20 via-purple-100 to-primary/10 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className={"absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><g fill=\"%23333333\" fill-opacity=\"0.1\"><path d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/></g></g></svg>')]"} />
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-12 animate-fade-in">
+            <div className="inline-block px-4 py-2 bg-primary/20 rounded-full mb-6">
+              <span className="text-primary font-semibold text-sm flex items-center gap-2 justify-center">
+                🌙 Special Offer
+              </span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+              Ramadan Special - Zaika Jo Dil Jeet Le
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Homemade with love ❤️
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Fry Items */}
+            <div className="group p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-primary/20 hover:border-primary/50 animate-fade-in">
+              <div className="text-4xl mb-4">🌶️</div>
+              <h3 className="text-2xl font-bold text-foreground mb-3">
+                Ramadan Special - Fry Items
+              </h3>
+              <p className="text-muted-foreground mb-2">
+                <strong>Zaika jo dil jeet le ❤️</strong>
+              </p>
+              <p className="text-muted-foreground mb-6">
+                Iftar ke waqt fry karo aur garma garam serve karo
+              </p>
+              <ul className="space-y-2 mb-6 text-sm text-muted-foreground">
+                <li>✓ Samosas, Rolls, Patties & More</li>
+                <li>✓ 20+ varieties to choose from</li>
+                <li>✓ Pre-Orders Only</li>
+                <li>✓ Fresh & Authentic Flavors</li>
+              </ul>
+              <a
+                href="/ramadan-fry"
+                className="inline-block bg-primary hover:bg-accent text-white px-6 py-2 rounded-full font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-primary/40"
+              >
+                View Fry Menu →
+              </a>
+            </div>
+
+            {/* Paratha Items */}
+            <div className="group p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-primary/20 hover:border-primary/50 animate-fade-in">
+              <div className="text-4xl mb-4">🥘</div>
+              <h3 className="text-2xl font-bold text-foreground mb-3">
+                Ramadan Special - Frozen Paratha
+              </h3>
+              <p className="text-muted-foreground mb-2">
+                <strong>Zaika jo dil jeet le ❤️</strong>
+              </p>
+              <p className="text-muted-foreground mb-6">
+                Iftar aur Suhoor ke liye ready-to-cook
+              </p>
+              <ul className="space-y-2 mb-6 text-sm text-muted-foreground">
+                <li>✓ Paratha, Chakor & Lachha Paratha</li>
+                <li>✓ Ready-to-Cook - Just Fry & Serve</li>
+                <li>✓ Pre-Orders Only</li>
+                <li>✓ Homemade Quality</li>
+              </ul>
+              <a
+                href="/ramadan-paratha"
+                className="inline-block bg-primary hover:bg-accent text-white px-6 py-2 rounded-full font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-primary/40"
+              >
+                View Paratha Menu →
+              </a>
+            </div>
+          </div>
+
+          <div className="mt-12 p-6 bg-white rounded-xl text-center border-2 border-accent/50 animate-slide-up">
+            <p className="text-lg font-semibold text-foreground mb-2">
+              📱 Call to Order Now
+            </p>
+            <a
+              href="tel:+923347367919"
+              className="text-3xl font-bold text-primary hover:text-accent transition-colors"
+            >
+              0334-7367919
+            </a>
+            <p className="text-sm text-muted-foreground mt-2">
+              Pre-Orders Only | Only Karachi | Delivery charges depend on area
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Menu Preview Section */}
       <section id="menu" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
