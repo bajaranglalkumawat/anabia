@@ -35,8 +35,4 @@ const App = () => (
   </QueryClientProvider>
 );
 
-const rootElement = document.getElementById("root");
-if (rootElement && !(window as any).__reactRootInitialized) {
-  (window as any).__reactRootInitialized = true;
-  createRoot(rootElement).render(<App />);
-}
+export default App;
