@@ -15,7 +15,7 @@ export default function Menu() {
       name: "Samosa (2 pieces)",
       price: "$4.99",
       description: "Crispy fried pastry with spiced potato and peas filling",
-      image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1585238341710-4b4e6db51910?w=400&h=400&fit=crop",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ export default function Menu() {
       name: "Paneer Pakora",
       price: "$6.99",
       description: "Cottage cheese fritters with aromatic spice coating",
-      image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ export default function Menu() {
       name: "Spring Rolls (3 pieces)",
       price: "$5.99",
       description: "Crispy rolls with mixed vegetable filling",
-      image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd64b11?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1609501676725-7186f017a4b0?w=400&h=400&fit=crop",
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ export default function Menu() {
       name: "Chicken Tikka",
       price: "$7.99",
       description: "Marinated chicken chunks grilled to perfection",
-      image: "https://images.unsplash.com/photo-1631452614221-cb9b66bb8151?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
     },
 
     // Main Course
@@ -49,7 +49,7 @@ export default function Menu() {
       name: "Butter Chicken",
       price: "$13.99",
       description: "Tender chicken in creamy tomato-based sauce",
-      image: "https://images.unsplash.com/photo-1585521199015-67b1365ef552?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1625866274917-3e4f0dd4d8f6?w=400&h=400&fit=crop",
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ export default function Menu() {
       name: "Paneer Tikka Masala",
       price: "$12.99",
       description: "Cottage cheese in aromatic spiced cream sauce",
-      image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1565557623814-ddf189ba38e3?w=400&h=400&fit=crop",
     },
     {
       id: 7,
@@ -73,7 +73,7 @@ export default function Menu() {
       name: "Tandoori Chicken",
       price: "$14.99",
       description: "Half chicken marinated and cooked in traditional tandoor",
-      image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd64b11?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop",
     },
     {
       id: 9,
@@ -81,7 +81,7 @@ export default function Menu() {
       name: "Biryani Special Mix",
       price: "$15.99",
       description: "Fragrant basmati rice with mixed meat and vegetables",
-      image: "https://images.unsplash.com/photo-1631452614221-cb9b66bb8151?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1596040450208-54c5ea06f4a1?w=400&h=400&fit=crop",
     },
     {
       id: 10,
@@ -89,7 +89,7 @@ export default function Menu() {
       name: "Rogan Josh Lamb",
       price: "$15.99",
       description: "Tender lamb in aromatic tomato-based curry",
-      image: "https://images.unsplash.com/photo-1585521199015-67b1365ef552?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1635087233829-3a52b5d64ab8?w=400&h=400&fit=crop",
     },
     {
       id: 11,
@@ -97,7 +97,7 @@ export default function Menu() {
       name: "Chole Bhature",
       price: "$11.99",
       description: "Spiced chickpeas with deep-fried bread",
-      image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1585238341710-4b4e6db51910?w=400&h=400&fit=crop",
     },
     {
       id: 12,
@@ -105,7 +105,7 @@ export default function Menu() {
       name: "Palak Paneer",
       price: "$11.99",
       description: "Spinach curry with cottage cheese cubes",
-      image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1631515243166-7c674306b236?w=400&h=400&fit=crop",
     },
 
     // Breads
@@ -115,7 +115,7 @@ export default function Menu() {
       name: "Naan",
       price: "$2.99",
       description: "Soft and fluffy traditional Indian bread",
-      image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd64b11?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=400&fit=crop",
     },
     {
       id: 14,
@@ -123,7 +123,7 @@ export default function Menu() {
       name: "Garlic Naan",
       price: "$3.49",
       description: "Naan topped with garlic and butter",
-      image: "https://images.unsplash.com/photo-1631452614221-cb9b66bb8151?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=400&fit=crop",
     },
     {
       id: 15,
@@ -131,7 +131,7 @@ export default function Menu() {
       name: "Roti",
       price: "$1.99",
       description: "Whole wheat Indian flatbread",
-      image: "https://images.unsplash.com/photo-1585521199015-67b1365ef552?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1634865074211-ec2d5f0d0aca?w=400&h=400&fit=crop",
     },
     {
       id: 16,
@@ -139,7 +139,7 @@ export default function Menu() {
       name: "Puri",
       price: "$3.99",
       description: "Deep-fried puffy Indian bread",
-      image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=400&fit=crop",
     },
 
     // Desserts
@@ -149,7 +149,7 @@ export default function Menu() {
       name: "Gulab Jamun",
       price: "$4.99",
       description: "Soft milk balls soaked in sweet syrup",
-      image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&h=400&fit=crop",
     },
     {
       id: 18,
@@ -157,7 +157,7 @@ export default function Menu() {
       name: "Kheer",
       price: "$3.99",
       description: "Creamy rice pudding with cardamom and nuts",
-      image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd64b11?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1580822261290-991b38693d1b?w=400&h=400&fit=crop",
     },
     {
       id: 19,
@@ -165,7 +165,7 @@ export default function Menu() {
       name: "Ras Malai",
       price: "$5.99",
       description: "Soft paneer cakes in sweet condensed milk",
-      image: "https://images.unsplash.com/photo-1631452614221-cb9b66bb8151?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&h=400&fit=crop",
     },
     {
       id: 20,
@@ -173,7 +173,7 @@ export default function Menu() {
       name: "Mango Kulfi",
       price: "$3.99",
       description: "Traditional frozen mango dessert on a stick",
-      image: "https://images.unsplash.com/photo-1585521199015-67b1365ef552?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=400&fit=crop",
     },
   ];
 
