@@ -128,8 +128,8 @@ export default function Home() {
             <div className="relative animate-slide-in-left">
               <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1585521199015-67b1365ef552?w=600&h=600&fit=crop"
-                  alt="Delicious Indian food"
+                  src="https://images.unsplash.com/photo-1596040450208-54c5ea06f4a1?w=600&h=600&fit=crop"
+                  alt="Delicious Indian biryani"
                   className="w-full h-full object-cover"
                 />
               </div>
